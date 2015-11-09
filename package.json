@@ -11,9 +11,12 @@
   "main": "lib/zero",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "browserify": "~12.0.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "browserify --bare -e lib/zero.js -s Zero -o dist/zero.js"
   },
   "homepage": "https://github.com/jhermsmeier/zero-physics",
   "repository": {
@@ -22,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/jhermsmeier/zero-physics/issues"
+  },
+  "directories": {
+    "test": "test"
   }
 }
