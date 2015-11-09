@@ -1,0 +1,26 @@
+{
+  "name": "zero-physics",
+  "version": "0.0.0",
+  "description": "3D Physics Engine",
+  "license": "MIT",
+  "keywords": [
+    "3d",
+    "physics",
+    "engine"
+  ],
+  "main": "lib/zero",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/jhermsmeier/zero-physics",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhermsmeier/zero-physics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/zero-physics/issues"
+  }
+}
