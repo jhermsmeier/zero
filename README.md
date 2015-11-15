@@ -12,3 +12,16 @@ $ npm install zero-physics
 Zero. Why that name, you ask? Well, zero is the beginning,
 the awkwardness of nothing, the starting array index. And I also
 played [Kentucky Route Zero](http://www.kentuckyroutezero.com) a couple of times. That might be it.
+
+## Usage
+
+```js
+var Zero = require( 'zero-physics' )
+```
+
+```js
+// Create a world
+var world = new Zero.World({
+  
+})
+```
