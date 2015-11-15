@@ -10,13 +10,21 @@
   ],
   "main": "lib/zero",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
-  "dependencies": {},
+  "dependencies": {
+    "async-emitter": "~1.5.2",
+    "bloodline": "~1.0.0"
+  },
   "devDependencies": {
-    "browserify": "~12.0.1"
+    "browserify": "~12.0.1",
+    "mocha": "~2.3.3",
+    "uglify-js": "~2.5.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dist": "browserify --bare -e lib/zero.js -s Zero -o dist/zero.js"
+    "bundle": "browserify --bare -e lib/zero.js -s Zero -o dist/zero.js",
+    "min": "uglifyjs --bare-returns -c -m -o dist/zero.min.js dist/zero.js",
+    "dist": "npm run bundle && npm run min",
+    "watch": "watch -c -n 10 npm run dist"
   },
   "homepage": "https://github.com/jhermsmeier/zero-physics",
   "repository": {
