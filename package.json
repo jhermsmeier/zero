@@ -12,7 +12,8 @@
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
   "dependencies": {
     "async-emitter": "~1.5.3",
-    "bloodline": "~1.0.0"
+    "bloodline": "~1.0.0",
+    "double-ended-queue": "~2.1.0-0"
   },
   "devDependencies": {
     "browserify": "~13.1.0",
