@@ -11,5 +11,5 @@ indent_style = space
 indent_size = 2
 charset = utf-8
 
-[*.{md}]
+[*.md]
 trim_trailing_whitespace = false
