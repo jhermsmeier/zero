@@ -11,13 +11,13 @@
   "main": "lib/zero",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
   "dependencies": {
-    "async-emitter": "~1.5.2",
+    "async-emitter": "~1.5.3",
     "bloodline": "~1.0.0"
   },
   "devDependencies": {
-    "browserify": "~12.0.1",
-    "mocha": "~2.3.3",
-    "uglify-js": "~2.5.0"
+    "browserify": "~13.1.0",
+    "mocha": "~3.0.2",
+    "uglify-js": "~2.7.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
