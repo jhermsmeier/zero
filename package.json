@@ -13,7 +13,7 @@
   "dependencies": {
     "async-emitter": "~1.5.3",
     "bloodline": "~1.0.0",
-    "double-ended-queue": "~2.1.0-0"
+    "denque": "~1.0.1"
   },
   "devDependencies": {
     "browserify": "~13.1.0",
